@@ -12,6 +12,7 @@ function resolve (dir) {
 }
 
 module.exports = {
+  mode: 'development',
   entry: {
     app: './src/main.js'
   },
@@ -25,7 +26,6 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.vue', '.json'],
     alias: {
-      'vue$': 'vue/dist/vue.esm.js',
       '@': resolve('src')
     }
   },

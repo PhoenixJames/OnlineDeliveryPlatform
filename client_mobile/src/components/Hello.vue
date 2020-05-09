@@ -1,27 +1,15 @@
 <template>
-  <!-- <div class="hello">
-    <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="http://chat.vuejs.org/" target="_blank" rel="noopener">Vue Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="http://vuejs-templates.github.io/webpack/" target="_blank" rel="noopener">Docs for This Template</a></li>
-    </ul>
-    <h2>Ecosystem</h2>
-    <ul>
-      <li><a href="http://router.vuejs.org/" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="http://vuex.vuejs.org/" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="http://vue-loader.vuejs.org/" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
-    <v-btn color="red">
-      save
-    </v-btn>
-    
-  </div> -->
-  <v-btn color="black">Save</v-btn>
+  <div>
+    <div class="my-2">
+      <v-btn small color="primary">Primary</v-btn>
+    </div>
+    <div class="my-2">
+      <v-btn small color="error">Error</v-btn>
+    </div>
+    <div class="my-2">
+      <v-btn small disabled>Disabled</v-btn>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -34,7 +22,3 @@ export default {
   },
 };
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style>
-</style>
